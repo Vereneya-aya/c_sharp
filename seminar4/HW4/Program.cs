@@ -60,4 +60,16 @@
 // одномерный массив (первый элемент станет последним, 
 // второй – предпоследним и т.д.)
 
-
+int[] array = { 1, 2, 3, 4, 5, 6, 7 };
+int i = 0;
+int j = array.Length - 1;
+int temp = array[i];
+while (i < array.Length / 2)
+{
+    temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+    i++;
+    j--;
+}
+Console.WriteLine($"reverse array: [{string.Join(",", array)}]");

@@ -3,7 +3,7 @@
 // Программа завершается при вводе символа ‘q’ 
 // или при вводе числа, сумма цифр которого чётная.
 
-// while (true) // true == true
+// while (true) // true == true Бесконечный цикл
 // {
 // Console.Write("Введите текст: ");
 // string text = Console.ReadLine();
@@ -11,15 +11,15 @@
 // {
 // break;
 // }
-// if (int.TryParse(text, out int number)) // true, строка состоит только из цифр
+// int number;
+// if (int.TryParse(text, out number)) // true, строка состоит только из цифр
 // {
 // int sum = 0;
-// int lastDigit = 0;
 // while (number > 0)
 //  {
-//    lastDigit = number % 10;
-//    number = number /10;
-//    sum = sum + lastDigit;
+     
+//    sum += number %10;
+//     number /= 10;
 //  }
 // if (sum % 2 == 0)
 // {
@@ -60,16 +60,16 @@
 // одномерный массив (первый элемент станет последним, 
 // второй – предпоследним и т.д.)
 
-int[] array = { 1, 2, 3, 4, 5, 6, 7 };
-int i = 0;
-int j = array.Length - 1;
-int temp = array[i];
-while (i < array.Length / 2)
-{
-    temp = array[i];
-    array[i] = array[j];
-    array[j] = temp;
-    i++;
-    j--;
-}
-Console.WriteLine($"reverse array: [{string.Join(",", array)}]");
+// int[] array = { 1, 2, 3, 4, 5, 6, 7 };
+// int i = 0;
+// int j = array.Length - 1;
+// int temp = array[i];
+// while (i < array.Length / 2)
+// {
+//     temp = array[i];
+//     array[i] = array[j];
+//     array[j] = temp;
+//     i++;
+//     j--;
+// }
+// Console.WriteLine($"reverse array: [{string.Join(",", array)}]");

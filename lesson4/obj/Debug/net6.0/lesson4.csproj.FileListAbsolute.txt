@@ -1,0 +1,15 @@
+/Users/veranikalis/Desktop/c_sharp/lesson4/bin/Debug/net6.0/lesson4
+/Users/veranikalis/Desktop/c_sharp/lesson4/bin/Debug/net6.0/lesson4.deps.json
+/Users/veranikalis/Desktop/c_sharp/lesson4/bin/Debug/net6.0/lesson4.runtimeconfig.json
+/Users/veranikalis/Desktop/c_sharp/lesson4/bin/Debug/net6.0/lesson4.dll
+/Users/veranikalis/Desktop/c_sharp/lesson4/bin/Debug/net6.0/lesson4.pdb
+/Users/veranikalis/Desktop/c_sharp/lesson4/obj/Debug/net6.0/lesson4.csproj.AssemblyReference.cache
+/Users/veranikalis/Desktop/c_sharp/lesson4/obj/Debug/net6.0/lesson4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/veranikalis/Desktop/c_sharp/lesson4/obj/Debug/net6.0/lesson4.AssemblyInfoInputs.cache
+/Users/veranikalis/Desktop/c_sharp/lesson4/obj/Debug/net6.0/lesson4.AssemblyInfo.cs
+/Users/veranikalis/Desktop/c_sharp/lesson4/obj/Debug/net6.0/lesson4.csproj.CoreCompileInputs.cache
+/Users/veranikalis/Desktop/c_sharp/lesson4/obj/Debug/net6.0/lesson4.dll
+/Users/veranikalis/Desktop/c_sharp/lesson4/obj/Debug/net6.0/refint/lesson4.dll
+/Users/veranikalis/Desktop/c_sharp/lesson4/obj/Debug/net6.0/lesson4.pdb
+/Users/veranikalis/Desktop/c_sharp/lesson4/obj/Debug/net6.0/lesson4.genruntimeconfig.cache
+/Users/veranikalis/Desktop/c_sharp/lesson4/obj/Debug/net6.0/ref/lesson4.dll

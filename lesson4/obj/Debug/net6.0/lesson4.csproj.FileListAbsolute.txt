@@ -13,3 +13,4 @@
 /Users/veranikalis/Desktop/c_sharp/lesson4/obj/Debug/net6.0/lesson4.pdb
 /Users/veranikalis/Desktop/c_sharp/lesson4/obj/Debug/net6.0/lesson4.genruntimeconfig.cache
 /Users/veranikalis/Desktop/c_sharp/lesson4/obj/Debug/net6.0/ref/lesson4.dll
+/Users/veranikalis/Desktop/c_sharp/lesson4/obj/Debug/net6.0/lesson4.sourcelink.json

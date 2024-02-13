@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "eafmjXbgeo+Bi/3VnUwkt1/SOLc9X1uNHf8RNR/0ieUgMSD1s8tVZXG0EDAQh8b1boDZm8mz8KkdXrDR9sZPZg==",
+  "dgSpecHash": "QAW0RptSDtJIwBCPwmvOpGI/mTjk4614pPEfN5Wdrf/l27eUaJiKL/4fK+eQLl/cngePP2bZqKcFR028i2lZxA==",
   "success": true,
   "projectFilePath": "/Users/veranikalis/Desktop/c_sharp/lesson4/HW/HW.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/veranikalis/.nuget/packages/microsoft.netcore.app.ref/6.0.26/microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "/Users/veranikalis/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.26/microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "/Users/veranikalis/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.26/microsoft.netcore.app.host.osx-arm64.6.0.26.nupkg.sha512"
+  ],
   "logs": []
 }

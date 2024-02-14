@@ -54,15 +54,18 @@
 
 // Console.Write("Введите строчку: ");
 // string inputString = Console.ReadLine();
-// Console.WriteLine($"Исходная строка: {inputString} Результат: {ChangeRegister(inputString)}");
+// string result = inputString.ToLower();
+// Console.WriteLine(result);
 
 
 // Задача 3: Задайте произвольную строку. 
 // Выясните, является ли она палиндромом.
 
-// bool IfPolindrom(string str)
+// bool IsPalindrom(string str)
 // {
-//     for (int i = 0, int j = str.Length - 1; i < str.Length / 2; i++, j--)
+//     for (int i = 0; i < str.Length / 2; i++)
+// {
+//     for (int j = str.Length - 1; j > i; j--)
 // {
 //         if (str[i] == str[j])
 //         {
@@ -70,15 +73,17 @@
 //         }
 //         else
 //         {
+//             break;
 //             return false;
 //         }
-//     }
-//     return true;
+//     }   
+// } 
+// return true;
 // }
 
 // Console.Write("Введите строчку: ");
 // string str = Console.ReadLine();
-// if (IfPolindrom(str) == true)
+// if (IsPalindrom(str) == true)
 // {
 //     Console.WriteLine("полиндром");
 // }
@@ -92,3 +97,17 @@
 // Сформировать строку, в которой слова расположены 
 // в обратном порядке. В полученной строке слова должны быть 
 // также разделены пробелами.
+
+string input = "Hello my world";
+// Вызов метода для обращения порядка слов в строке 
+string result = ReverseWords(input);
+// Вывод результата
+Console.WriteLine(result); 
+// Метод для обращения порядка слов в строке 
+ string ReverseWords(string str)
+// Разделение строки на слова 
+string[] words = str.Split(' ');
+// Обращение порядка слов 
+Array.Reverse(words);
+// Соединение слов обратно в строку с пробелами
+return string.Join(" ", words);

@@ -1,0 +1,15 @@
+/Users/veranikalis/Desktop/c_sharp/seminar6/HW6/bin/Debug/net8.0/HW6
+/Users/veranikalis/Desktop/c_sharp/seminar6/HW6/bin/Debug/net8.0/HW6.deps.json
+/Users/veranikalis/Desktop/c_sharp/seminar6/HW6/bin/Debug/net8.0/HW6.runtimeconfig.json
+/Users/veranikalis/Desktop/c_sharp/seminar6/HW6/bin/Debug/net8.0/HW6.dll
+/Users/veranikalis/Desktop/c_sharp/seminar6/HW6/bin/Debug/net8.0/HW6.pdb
+/Users/veranikalis/Desktop/c_sharp/seminar6/HW6/obj/Debug/net8.0/HW6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/veranikalis/Desktop/c_sharp/seminar6/HW6/obj/Debug/net8.0/HW6.AssemblyInfoInputs.cache
+/Users/veranikalis/Desktop/c_sharp/seminar6/HW6/obj/Debug/net8.0/HW6.AssemblyInfo.cs
+/Users/veranikalis/Desktop/c_sharp/seminar6/HW6/obj/Debug/net8.0/HW6.csproj.CoreCompileInputs.cache
+/Users/veranikalis/Desktop/c_sharp/seminar6/HW6/obj/Debug/net8.0/HW6.sourcelink.json
+/Users/veranikalis/Desktop/c_sharp/seminar6/HW6/obj/Debug/net8.0/HW6.dll
+/Users/veranikalis/Desktop/c_sharp/seminar6/HW6/obj/Debug/net8.0/refint/HW6.dll
+/Users/veranikalis/Desktop/c_sharp/seminar6/HW6/obj/Debug/net8.0/HW6.pdb
+/Users/veranikalis/Desktop/c_sharp/seminar6/HW6/obj/Debug/net8.0/HW6.genruntimeconfig.cache
+/Users/veranikalis/Desktop/c_sharp/seminar6/HW6/obj/Debug/net8.0/ref/HW6.dll

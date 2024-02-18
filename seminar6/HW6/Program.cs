@@ -61,36 +61,45 @@
 // Задача 3: Задайте произвольную строку. 
 // Выясните, является ли она палиндромом.
 
-// bool IsPalindrom(string str)
-// {
-//     for (int i = 0; i < str.Length / 2; i++)
-// {
-//     for (int j = str.Length - 1; j > i; j--)
-// {
-//         if (str[i] == str[j])
-//         {
-//             continue;
-//         }
-//         else
-//         {
-//             break;
-//             return false;
-//         }
-//     }   
-// } 
-// return true;
-// }
+bool IsPalindrom(string str)
+{
+    int res = 0;
+    for (int i = 0; i < str.Length / 2; i++)
+    {
+        for (int j = str.Length - 1; j > str.Length; j--)
+        {
+            if (str[i] == str[j])
+            {
+               res = 1;
+            }
+            else
+            {
+                res = 0;
+            }
+        }
+    }
+    if (res = 1)
+    {
+        return true;
+        }
 
-// Console.Write("Введите строчку: ");
-// string str = Console.ReadLine();
-// if (IsPalindrom(str) == true)
-// {
-//     Console.WriteLine("полиндром");
-// }
-// else
-// {
-//     Console.WriteLine("не полиндром");
-// }
+    else
+    {
+        return false;
+    }
+     
+}
+
+Console.Write("Введите строчку: ");
+string str = Console.ReadLine();
+if (IsPalindrom(str) == true)
+{
+    Console.WriteLine("палиндром");
+}
+else
+{
+    Console.WriteLine("не палиндром");
+}
 
 // Задача 4*(не обязательная): Задайте строку, 
 // состоящую из слов, разделенных пробелами. 
@@ -98,16 +107,16 @@
 // в обратном порядке. В полученной строке слова должны быть 
 // также разделены пробелами.
 
-string input = "Hello my world";
-// Вызов метода для обращения порядка слов в строке 
-string result = ReverseWords(input);
-// Вывод результата
-Console.WriteLine(result); 
-// Метод для обращения порядка слов в строке 
- string ReverseWords(string str)
-// Разделение строки на слова 
-string[] words = str.Split(' ');
-// Обращение порядка слов 
-Array.Reverse(words);
-// Соединение слов обратно в строку с пробелами
-return string.Join(" ", words);
+// string input = "Hello my world";
+// // Вызов метода для обращения порядка слов в строке 
+// string result = ReverseWords(input);
+// // Вывод результата
+// Console.WriteLine(result); 
+// // Метод для обращения порядка слов в строке 
+//  string ReverseWords(string str)
+// // Разделение строки на слова 
+// string[] words = str.Split(' ');
+// // Обращение порядка слов 
+// Array.Reverse(words);
+// // Соединение слов обратно в строку с пробелами
+// return string.Join(" ", words);
